@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="settings"
+    android:title="配置设备信息" >
+
+    <PreferenceCategory
+        android:key="basic"
+        android:title="基本设置" >
+
+        <EditTextPreference
+        
+            android:key="serverIp"
+            android:title="设备IP" />
+
+        <EditTextPreference
+           android:defaultValue="8000"
+            android:key="serverPort"
+            android:title="设备端口号" />
+
+        <EditTextPreference
+            android:defaultValue="admin"
+            android:key="userName"
+            android:title="用户名" />
+
+        <EditTextPreference
+            android:defaultValue="12345"
+            android:key="userPwd"
+            android:title="密码" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
